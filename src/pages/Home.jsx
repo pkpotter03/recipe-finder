@@ -101,7 +101,7 @@ const Home = () => {
           <h3 className="text-xl font-semibold">Search Results</h3>
           <div className="grid grid-cols-5 gap-4 sm:grid-cols-3 lg:grid-cols-5">
             {recipes.map((recipe) => (
-              <Link key={recipe.idMeal} to={`/recipe/${recipe.idMeal}`} className="border p-2 rounded">
+              <Link key={recipe.idMeal} to={`/recipe/${recipe.idMeal}`} className="border p-2 rounded flex flex-col items-center">
                 <img src={recipe.strMealThumb} alt={recipe.strMeal} className="w-full rounded-md" />
                 <p className="font-medium">{recipe.strMeal}</p>
               </Link>
