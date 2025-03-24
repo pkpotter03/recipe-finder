@@ -54,5 +54,9 @@ This project uses **TheMealDB API** to fetch recipes. No API key is required. Ex
 
 ---
 
+If you like this project, give it a ⭐ on GitHub! It really helps! 😊
+
+---
+
 ## 📜 License
 This project is open-source and available under the **MIT License**.
